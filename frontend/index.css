@@ -1,0 +1,62 @@
+@font-face {
+    font-family: MiSans-Semibold;
+    src: url(../resources/MiSans-Semibold.ttf);
+}
+@font-face {
+    font-family: MiSans;
+    src: url(../resources/MiSans-Normal.ttf);
+}
+
+
+body {
+    background-color: #AAD0FF;
+    margin: 0;
+}
+
+/*header*/
+header {
+    padding: 10px;
+    margin-top: 0%;
+    width: 100%;
+    top: 0;
+    background-image: linear-gradient(to bottom right, #2998cf, #184a61);
+    color: white;
+    font-family: MiSans-Semibold;
+    text-align: center;
+}
+#header_main{
+    color: white;
+    font-size: 4em;
+}
+#header_attached{
+    color: #BFBFBF;
+    font-size: 2em;
+    margin-top: -40px;
+}
+
+/*main*/
+.main {
+    background-color: #d1e5ff;
+    color: #062230;
+    font-family: MiSans;
+    border:#2998cf solid;
+    border-radius: 8px;
+    border-width: 4px;
+}
+.title {
+    margin-left: 10px;
+    margin-top: 10px;
+    max-width: fit-content;
+    padding: 5px;
+    font-family: MiSans-Semibold;
+    font-size: 2em;
+    text-align: center;
+    border:#2998cf solid;
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+* {
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
