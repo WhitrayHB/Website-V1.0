@@ -66,13 +66,32 @@ header {
 .content {
     margin: 10px;
     margin-bottom: 20px;
-    padding-left: 20px;
     font-size: 1.2em;
     background-color: #AAD0FF;
     border:#AAD0FF solid;
     border-radius: 8px;
     border-width: 4px;
     filter: drop-shadow(0 10px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+}
+.works {
+    margin: 0;
+    display: inline-block;
+    width: 30%;
+    background-color: #e2efff;
+    border-radius: 8px;
+    border-width: 4px;
+}
+.friends {
+    background-color: #e2efff;
+    border-radius: 8px;
+    border-width: 4px;
+}
+.imgs {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border-width: 4px;
 }
 
 * {
