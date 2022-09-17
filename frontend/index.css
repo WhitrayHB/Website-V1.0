@@ -39,7 +39,7 @@ header {
     margin-top: 20px;
     max-width: 75%;
     padding: 8px;
-    background-color: rgb(209,229,255,0.6);
+    background-color: rgb(209,229,255,0.7);
     color: #062230;
     font-family: MiSans;
     border-radius: 8px;
@@ -49,6 +49,7 @@ header {
 .title {
     margin-left: 5px;
     margin-top: 5px;
+    margin-bottom: 10px;
     max-width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
@@ -64,12 +65,14 @@ header {
 }
 .content {
     margin: 10px;
+    margin-bottom: 20px;
     padding-left: 20px;
     font-size: 1.2em;
     background-color: #AAD0FF;
     border:#AAD0FF solid;
     border-radius: 8px;
     border-width: 4px;
+    filter: drop-shadow(0 10px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
 
 * {
