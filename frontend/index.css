@@ -5,7 +5,7 @@
 
 
 body {
-    background-image: url(https://api.lo-li.icu/Bing);
+    background-image: url(https://api.lo-li.icu/Bing/);
     background-repeat:no-repeat;
     margin: 0;
 }
@@ -94,6 +94,24 @@ header {
     border-width: 4px;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E2EFFF;
+    width: fit-content;
+    padding: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    border-width: 4px;
+    white-space: nowrap;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 .imgs {
     vertical-align:middle;
     margin: 10px;
