@@ -6,6 +6,8 @@
 
 body {
     background-image: url(https://api.lo-li.icu/Bing/);
+    background-attachment: fixed;
+    background-size: cover;
     inset:0;
     z-index:-1;
     object-fit:cover;
@@ -39,7 +41,7 @@ header {
     max-width: 75%;
     padding: 8px;
     background-color: rgb(209,229,255,0.7);
-    color: #062230;
+    color: #404040;
     font-family: MiSans;
     border-radius: 8px;
     border-width: 4px;
@@ -72,6 +74,9 @@ header {
     border-radius: 8px;
     border-width: 4px;
     filter: drop-shadow(0 10px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+}
+a {
+    color: #2075a0;
 }
 .programs {
     display: block;
