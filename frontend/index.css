@@ -95,11 +95,17 @@ a {
     font-size: 1.4em;
     display: block;
 }
+
+ul.list {
+    list-style-type: square;
+    font-size: 1.2em;
+}
 .friends {
     background-color: #e2efff;
     border-radius: 8px;
     border-width: 4px;
 }
+
 
 .dropdown {
     position: relative;
