@@ -68,6 +68,7 @@ header {
 .content {
     margin: 10px;
     margin-bottom: 20px;
+    padding：5px;
     font-size: 1.2em;
     background-color: #AAD0FF;
     border:#AAD0FF solid;
@@ -106,6 +107,20 @@ ul.list {
     border-width: 4px;
 }
 
+footer {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5 auto;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight:bold;
+    background-color: rgb(209,229,255,0.7);
+    border-radius: 8px;
+    border-width: 4px;
+    width: fit-content;
+}
+
 
 .dropdown {
     position: relative;
@@ -114,6 +129,7 @@ ul.list {
   .dropdown-content {
     display: none;
     position: absolute;
+    margin-left: -28px;
     background-color: #E2EFFF;
     width: fit-content;
     padding: 5px;
