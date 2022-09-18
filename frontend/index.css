@@ -1,15 +1,12 @@
 @font-face {
-    font-family: MiSans-Semibold;
-    src: url(../resources/MiSans-Semibold.ttf);
-}
-@font-face {
     font-family: MiSans;
-    src: url(../resources/MiSans-Normal.ttf);
+    src: url(../resources/font.woff2);
 }
 
 
 body {
     background-image: url(https://api.lo-li.icu/Bing);
+    background-repeat:no-repeat;
     margin: 0;
 }
 
@@ -20,7 +17,7 @@ header {
     width: 100%;
     top: 0;
     color: white;
-    font-family: MiSans-Semibold;
+    font-family: MiSans;
     text-align: center;
 }
 #header_main{
@@ -34,7 +31,7 @@ header {
 }
 
 /*main*/
-.main {
+#main {
     margin: auto;
     margin-top: 20px;
     max-width: 75%;
@@ -53,8 +50,9 @@ header {
     max-width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: MiSans-Semibold;
+    font-family: MiSans;
     font-size: 2em;
+    font-weight:bold;
     text-align: center;
     color:white;
     background-color: #2998CF;
@@ -73,23 +71,35 @@ header {
     border-width: 4px;
     filter: drop-shadow(0 10px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
-.works {
-    margin: 0;
-    display: inline-block;
-    width: 30%;
+.programs {
+    display: block;
     background-color: #e2efff;
     border-radius: 8px;
     border-width: 4px;
+    margin: 10px;
+    align-items: center;
+}
+#work_description {
+    vertical-align:middle;
+    font-size: 1em;
+    display: inline-block;
+}
+#work_description b{
+    font-size: 1.4em;
+    display: block;
 }
 .friends {
     background-color: #e2efff;
     border-radius: 8px;
     border-width: 4px;
 }
+
 .imgs {
-    margin: 5px;
+    vertical-align:middle;
+    margin: 10px;
     width: 100px;
     height: 100px;
+    display: inline-block;
     border-radius: 8px;
     border-width: 4px;
 }
