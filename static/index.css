@@ -1,6 +1,6 @@
 @font-face {
     font-family: MiSans;
-    src: url(../resources/font.woff2);
+    src: url(/static/font.woff2);
 }
 
 
@@ -68,7 +68,6 @@ header {
 .content {
     margin: 10px;
     margin-bottom: 20px;
-    padding：5px;
     font-size: 1.2em;
     background-color: #AAD0FF;
     border:#AAD0FF solid;
@@ -110,7 +109,8 @@ ul.list {
 footer {
     text-align: center;
     font-family: sans-serif;
-    margin: 5 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -120,7 +120,6 @@ footer {
     border-width: 4px;
     width: fit-content;
 }
-
 
 .dropdown {
     position: relative;
