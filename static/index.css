@@ -91,6 +91,7 @@ a {
     vertical-align:middle;
     font-size: 1em;
     display: inline-block;
+    padding: 5px;
 }
 #work_description b{
     font-size: 1.4em;
