@@ -106,6 +106,22 @@ ul.list {
     background-color: #e2efff;
     border-radius: 8px;
     border-width: 4px;
+    margin: 10px;
+    margin-right: 0;
+    padding-right: 10px;
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+}
+#friend_description {
+    vertical-align:middle;
+    font-size: 1em;
+    display: inline-block;
+    padding: 5px;
+}
+#friend_description b{
+    font-size: 1.4em;
+    display: block;
 }
 
 footer {
