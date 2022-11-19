@@ -107,7 +107,8 @@ ul.list {
     border-radius: 8px;
     border-width: 4px;
     margin: 10px;
-    margin-right: 0;
+    margin-right: 0px;
+    margin-bottom: 5px;
     padding-right: 10px;
     width: fit-content;
     height: fit-content;
