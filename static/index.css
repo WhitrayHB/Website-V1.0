@@ -67,7 +67,7 @@ header {
     filter: drop-shadow(0 10px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
 .content {
-    margin: 10px;
+    margin: 1%;
     margin-bottom: 20px;
     font-size: 1.2em;
     background-color: #AAD0FF;
@@ -171,6 +171,14 @@ footer {
     display: inline-block;
     border-radius: 8px;
     border-width: 4px;
+}
+#OC {
+    margin: 1%;
+    width: 98%;
+    display: inline-block;
+    border-radius: 8px;
+    border-width: 4px;
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
 
 * {
