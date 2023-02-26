@@ -8,9 +8,9 @@ body {
     background-image: url(https://api.lo-li.icu/Bing/);
     background-attachment: fixed;
     background-size: cover;
-    inset:0;
-    z-index:-1;
-    object-fit:cover;
+    inset: 0;
+    z-index: -1;
+    object-fit: cover;
     margin: 0;
 }
 
@@ -24,11 +24,13 @@ header {
     font-family: MiSans;
     text-align: center;
 }
-#header_main{
+
+#header_main {
     color: white;
     font-size: 4em;
 }
-#header_attached{
+
+#header_attached {
     color: #BFBFBF;
     font-size: 2em;
     margin-top: -40px;
@@ -41,13 +43,14 @@ header {
     max-width: 75%;
     min-width: 350px;
     padding: 8px;
-    background-color: rgb(209,229,255,0.7);
+    background-color: rgb(209, 229, 255, 0.7);
     color: #404040;
     font-family: MiSans;
     border-radius: 8px;
     border-width: 4px;
     filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
+
 .title {
     margin-left: 5px;
     margin-top: 5px;
@@ -57,29 +60,45 @@ header {
     padding-right: 10px;
     font-family: MiSans;
     font-size: 200%;
-    font-weight:bold;
+    font-weight: bold;
     text-align: center;
-    color:white;
+    color: white;
     background-color: #2998CF;
-    border:#2998CF solid;
+    border: #2998CF solid;
     border-radius: 8px;
     border-width: 4px;
     filter: drop-shadow(0 10px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
+
 .content {
     margin: 1%;
     margin-bottom: 20px;
     font-size: 1.2em;
     background-color: #AAD0FF;
-    border:#AAD0FF solid;
+    border: #AAD0FF solid;
     border-radius: 8px;
     border-width: 4px;
     filter: drop-shadow(0 10px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
+
+.content-plainText {
+    margin: 1%;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    background-color: #AAD0FF;
+    border: #AAD0FF solid;
+    border-radius: 8px;
+    border-width: 4px;
+    filter: drop-shadow(0 10px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+    padding: 0 20px;
+}
+
+
 a {
     color: #2075a0;
     text-decoration: none;
 }
+
 .programs {
     display: block;
     background-color: #e2efff;
@@ -88,13 +107,15 @@ a {
     margin: 10px;
     align-items: center;
 }
+
 #work_description {
-    vertical-align:middle;
+    vertical-align: middle;
     font-size: 1em;
     display: inline-block;
     padding: 5px;
 }
-#work_description b{
+
+#work_description b {
     font-size: 1.4em;
     display: block;
 }
@@ -103,6 +124,7 @@ ul.list {
     list-style-type: square;
     font-size: 1em;
 }
+
 .friends {
     background-color: #e2efff;
     border-radius: 8px;
@@ -115,13 +137,15 @@ ul.list {
     height: fit-content;
     display: inline-block;
 }
+
 #friend_description {
-    vertical-align:middle;
+    vertical-align: middle;
     font-size: 1em;
     display: inline-block;
     padding: 5px;
 }
-#friend_description b{
+
+#friend_description b {
     font-size: 1.4em;
     display: block;
 }
@@ -135,8 +159,8 @@ footer {
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    font-weight:bold;
-    background-color: rgb(209,229,255,0.7);
+    font-weight: bold;
+    background-color: rgb(209, 229, 255, 0.7);
     border-radius: 8px;
     border-width: 4px;
     width: fit-content;
@@ -145,26 +169,28 @@ footer {
 .dropdown {
     position: relative;
     display: inline-block;
-  }
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     margin-left: -28px;
     background-color: #E2EFFF;
     width: fit-content;
     padding: 5px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     border-width: 4px;
     white-space: nowrap;
     font-size: 1.2em;
-  }
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
 .imgs {
-    vertical-align:middle;
+    vertical-align: middle;
     margin: 10px;
     width: 100px;
     height: 100px;
@@ -172,6 +198,7 @@ footer {
     border-radius: 8px;
     border-width: 4px;
 }
+
 #OC {
     margin: 1%;
     width: 98%;
