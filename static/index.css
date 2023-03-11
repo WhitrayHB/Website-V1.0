@@ -106,6 +106,10 @@ a {
     border-width: 4px;
     margin: 10px;
     align-items: center;
+    transition:background-color 0.1s linear;
+}
+.programs:hover {
+    background-color: #edf5ff;
 }
 
 #work_description {
@@ -136,6 +140,10 @@ ul.list {
     width: fit-content;
     height: fit-content;
     display: inline-block;
+    transition:background-color 0.1s linear;
+}
+.friends:hover {
+    background-color: #edf5ff;
 }
 
 #friend_description {
